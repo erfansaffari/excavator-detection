@@ -1,0 +1,47 @@
+{
+  "source": "/kaggle/input/datasets/xiaopan9802/mocs-dataset",
+  "seed": 42,
+  "drop_empty": false,
+  "inspection": {
+    "formats": {
+      "coco": 2
+    },
+    "images": 23404,
+    "annotated_images": 23404,
+    "boxes": 135910,
+    "classes": {
+      "Crane": 2991,
+      "Worker": 89428,
+      "Excavator": 12057,
+      "Hanging head": 3041,
+      "Static crane": 8532,
+      "Pump truck": 1684,
+      "Other vehicle": 5954,
+      "Concrete mixer": 1687,
+      "Truck": 6101,
+      "Loader": 1043,
+      "Pile driving": 1211,
+      "Bulldozer": 1166,
+      "Roller": 1015
+    },
+    "splits": {
+      "train": 19404,
+      "val": 4000
+    },
+    "warnings": []
+  },
+  "prepared": {
+    "images": {
+      "train": 16383,
+      "val": 3511,
+      "test": 3510
+    },
+    "excavator_boxes": {
+      "train": 8443,
+      "val": 1803,
+      "test": 1811
+    },
+    "output": "/kaggle/working/excavator-detection/data/processed",
+    "image_mode": "symlink"
+  }
+}

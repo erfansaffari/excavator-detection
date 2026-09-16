@@ -14,3 +14,6 @@ results/*
 figures/*
 !figures/.gitkeep
 
+# Local downloads and manual inference inputs
+/Keggle/
+/tests/image*.png
