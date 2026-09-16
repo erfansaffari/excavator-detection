@@ -41,6 +41,7 @@ def main() -> None:
         "epochs": 1 if args.smoke_test else args.epochs,
         "imgsz": min(args.imgsz, 320) if args.smoke_test else args.imgsz,
         "batch": min(args.batch, 4) if args.smoke_test else args.batch,
+        "fraction": 0.02 if args.smoke_test else 1.0,
         "patience": args.patience,
         "device": args.device,
         "workers": args.workers,
@@ -59,4 +60,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
