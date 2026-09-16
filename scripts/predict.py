@@ -35,7 +35,7 @@ def main() -> None:
         save=True,
         save_conf=True,
         show=args.show,
-        project=str(args.project),
+        project=str(args.project.resolve()),
         name=args.name,
         exist_ok=True,
         verbose=True,

@@ -38,7 +38,7 @@ def main() -> None:
         imgsz=args.imgsz,
         batch=args.batch,
         device=args.device,
-        project=str(args.project),
+        project=str(args.project.resolve()),
         name=args.name,
         plots=True,
         save_json=True,
@@ -60,4 +60,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

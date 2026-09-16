@@ -48,7 +48,7 @@ def main() -> None:
         "seed": args.seed,
         "deterministic": True,
         "pretrained": True,
-        "project": str(args.project),
+        "project": str(args.project.resolve()),
         "name": f"{args.name}_smoke" if args.smoke_test else args.name,
         "exist_ok": False,
         "plots": True,
