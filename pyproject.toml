@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "excavator-detection"
+version = "0.1.0"
+description = "Fine-tune YOLO11n to detect excavators in MOCS construction-site imagery"
+requires-python = ">=3.10"
+dependencies = [
+  "ultralytics>=8.3.0,<9",
+  "streamlit>=1.39,<2",
+  "opencv-python-headless>=4.10,<5",
+  "Pillow>=10.4,<12",
+  "PyYAML>=6.0,<7",
+  "tqdm>=4.66,<5",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+

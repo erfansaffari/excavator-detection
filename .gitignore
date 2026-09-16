@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+
+# Large/local artifacts
+data/raw/
+data/processed/
+*.pt
+results/*
+!results/.gitkeep
+figures/*
+!figures/.gitkeep
+

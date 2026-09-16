@@ -1,0 +1,7 @@
+ultralytics>=8.3.0,<9
+streamlit>=1.39,<2
+opencv-python-headless>=4.10,<5
+Pillow>=10.4,<12
+PyYAML>=6.0,<7
+tqdm>=4.66,<5
+

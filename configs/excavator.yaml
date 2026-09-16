@@ -1,0 +1,9 @@
+# Generated paths assume scripts/prepare_dataset.py used its defaults.
+path: ../data/processed
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: Excavator
+
